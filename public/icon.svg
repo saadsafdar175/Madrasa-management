@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E2A47"/>
+      <stop offset="100%" stop-color="#07162C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#blueGrad)"/>
+  <!-- Gold Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="8" opacity="0.6"/>
+  <!-- Islamic Crescent & Star -->
+  <path d="M 270 120 A 130 130 0 1 0 350 360 A 110 110 0 1 1 270 120 Z" fill="url(#goldGrad)"/>
+  <!-- Open Book Symbol (Quran/Education) -->
+  <path d="M 170 330 Q 256 310 342 330 L 342 390 Q 256 370 170 390 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M 170 330 Q 256 350 342 330" stroke="#0B2545" stroke-width="6" fill="none"/>
+  <line x1="256" y1="315" x2="256" y2="385" stroke="#0B2545" stroke-width="6"/>
+</svg>

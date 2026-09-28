@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "نظامِ انتظامِ جامعہ - Madrasa Management System",
+  "short_name": "انتظامِ جامعہ",
+  "description": "جامعہ و مدرسہ کا مکمل انتظامی نظام مع آف لائن ڈیٹا بیس، پرنٹنگ اور واٹس ایپ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0B2545",
+  "background_color": "#F0F4F9",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
